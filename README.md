@@ -1,5 +1,7 @@
 # react-emotion-naming
 
+[![Testing](https://github.com/kirilenko/react-emotion-naming/actions/workflows/testing.yml/badge.svg)](https://github.com/kirilenko/react-emotion-naming/actions/workflows/testing.yml)
+
 This is a helper for [@emotion/react](https://www.npmjs.com/package/@emotion/react).  
 
 This package enhances the attached CSS class name on any component with richer output to help identify your components in the DOM by debug.  
