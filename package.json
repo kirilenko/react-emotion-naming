@@ -1,7 +1,7 @@
 {
   "name": "react-emotion-naming",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React emotion naming. This package enhances the attached CSS class name on any component with richer output to help identify your components in the DOM by debug.",
   "author": "Kirilenko",
   "license": "MIT",
@@ -34,7 +34,8 @@
     "test:ci": "vitest --run",
     "prebuild": "rimraf ./build",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "pnpm build && npm publish --access public"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
