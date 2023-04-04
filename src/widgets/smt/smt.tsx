@@ -1,6 +1,5 @@
 import { FC } from 'react'
-
-import { useEmotionNaming } from '@shared/lib/emotion-naming'
+import { useEmotionNaming } from 'react-emotion-naming'
 
 import StyledSmt from './smt.style'
 

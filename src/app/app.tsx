@@ -1,8 +1,8 @@
 import { FC } from 'react'
+import { withEmotionNamingProvider } from 'react-emotion-naming'
 import { Global } from '@emotion/react'
 
 import { Home } from '@pages/home'
-import { withEmotionNamingProvider } from '@shared/lib/emotion-naming'
 
 import GlobalStyles from './styles/global.style'
 

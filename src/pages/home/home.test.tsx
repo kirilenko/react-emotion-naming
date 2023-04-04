@@ -1,7 +1,7 @@
+import { EmotionNamingProvider } from 'react-emotion-naming'
 import { render, screen } from '@testing-library/react'
 import { describe, expect, test } from 'vitest'
 
-import { EmotionNamingProvider } from '@shared/lib/emotion-naming'
 import { Home } from '.'
 
 describe('<Home />', () => {

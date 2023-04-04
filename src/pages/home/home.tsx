@@ -1,9 +1,6 @@
 import { FC } from 'react'
+import { PropsWithEmotionNaming, withEmotionNaming } from 'react-emotion-naming'
 
-import {
-  PropsWithEmotionNaming,
-  withEmotionNaming,
-} from '@shared/lib/emotion-naming'
 import { Smt } from '@widgets/smt'
 
 import StyledHome from './home.style'

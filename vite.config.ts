@@ -36,6 +36,7 @@ export default defineConfig(() => ({
       '@pages': '/src/pages',
       '@shared': '/src/shared',
       '@widgets': '/src/widgets',
+      'react-emotion-naming': '/src/shared/lib/emotion-naming',
     },
   },
   test: {
