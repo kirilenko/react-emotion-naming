@@ -1,6 +1,6 @@
 # react-emotion-naming
 
-[![Testing](https://github.com/kirilenko/react-emotion-naming/actions/workflows/testing.yml/badge.svg)](https://github.com/kirilenko/react-emotion-naming/actions/workflows/testing.yml)
+[![Testing](https://github.com/kirilenko/react-emotion-naming/actions/workflows/ci.yml/badge.svg)](https://github.com/kirilenko/react-emotion-naming/actions/workflows/ci.yml)
 
 This is a helper for [@emotion/react](https://www.npmjs.com/package/@emotion/react).  
 
