@@ -1,17 +1,17 @@
-name: Testing and Publishing
+name: publish
 on:
-  push:
-
-  pull_request:
+  workflow_run:
     branches:
       - main
-      - stage
-      - dev
+
+    workflows: [test]
+    types:
+      - completed
 
 jobs:
-  cache-and-install:
+  on-success:
     runs-on: ubuntu-latest
-
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -45,9 +45,6 @@ jobs:
 
       - name: Install dependencies
         run: node -v && pnpm -v && pnpm install --frozen-lockfile
-
-      - name: Testing
-        run: pnpm run test:ci
 
       - name: Build
         run: npm run build
